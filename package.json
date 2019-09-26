@@ -1,0 +1,25 @@
+{
+  "name": "subprotocols",
+  "version": "0.0.0",
+  "description": "subprotocols",
+  "main": "src/subprotocols.js",
+  "scripts": {
+    "start": "budo demo/demo.js:bundle.js --dir . --ssl --live --open",
+    "build": "browserify demo/demo.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/subprotocols.git"
+  },
+  "author": "@serapath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/subprotocols/issues"
+  },
+  "homepage": "https://github.com/serapath/subprotocols#readme",
+  "devDependencies": {
+    "bel": "^6.0.0",
+    "budo": "^11.6.3",
+    "csjs-inject": "^1.0.1"
+  }
+}
